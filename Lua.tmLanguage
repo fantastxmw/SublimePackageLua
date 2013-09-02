@@ -253,7 +253,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\w+)\s*[\.:]</string>
+			<string>(\w+)[\.:]</string>
 			<key>name</key>
 			<string>keyword.operator.lua</string>
 		</dict>		

@@ -9,7 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^\s*(elseif|else|end|\})\s*$</string>
+		<!-- by [Nathan Shafer](http://blog.lotech.org/2013/04/fixing-lua-indenting-in-sublime-text.html) -->
+		<string>^\s*(else|end|\})\s*$|^\s*elseif\b((?!end).)*$</string>
+		<!-- <string>^\s*(elseif|else|end|\})\s*$</string> -->
 		<key>increaseIndentPattern</key>
 		<string>^\s*(else|elseif|for|(local\s+)?function|if|repeat|until|while)\b((?!end).)*$|\{\s*$</string>
 	</dict>
