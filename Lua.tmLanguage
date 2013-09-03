@@ -244,6 +244,13 @@
 			<string>keyword.control.lua</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>\b(self|this|super|package)\b</string>
+			<key>name</key>
+			<string>variable.language.self.lua</string>
+			<!-- <string>variable.language.self.lua</string> -->
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -268,13 +275,6 @@
 			<string>\b[A-Z0-9_]+\b</string>
 			<key>name</key>
 			<string>constant.character.lua</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(self|this|super|package)\b</string>
-			<key>name</key>
-			<string>variable.language.self.lua</string>
-			<!-- <string>variable.language.self.lua</string> -->
 		</dict>
 		<!-- customized end -->
 	</array>
